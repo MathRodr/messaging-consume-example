@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: tera-project-example
+  profiles:
+    active: local
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com.tera.messaging: DEBUG
+    org.springframework.boot.autoconfigure: DEBUG

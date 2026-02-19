@@ -1,0 +1,15 @@
+
+messaging:
+  provider: KAFKA
+  kafka:
+    bootstrap-servers: localhost:9092
+    group-id: order-service-example
+    auto-offset-reset: earliest
+    concurrency: 3
+    enable-auto-commit: false
+    producer:
+      acks: all
+      retries: 3
+      batch-size: 16384
+      linger-ms: 10
+      buffer-memory: 33554432

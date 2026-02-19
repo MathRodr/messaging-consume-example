@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: tera-project-example
+
+messaging:
+  provider: NONE
